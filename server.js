@@ -2,7 +2,7 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
-
+console.log("trying to push")
 const PORT = 3000;
 
 const app = express();
